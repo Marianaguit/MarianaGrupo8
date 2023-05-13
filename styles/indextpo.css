@@ -1,0 +1,155 @@
+/*comentario*/
+*{
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    
+}
+
+#nuestros_cursos{
+    border: 2px solid rgb(47, 0, 255);
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 10px;
+    color: forestgreen;
+}
+
+#activities-section{
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    overflow: auto;
+}
+
+#flex-container1{
+    border: .5px solid blueviolet;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
+    background-color: aquamarine;
+    
+}
+
+.flex-item1{
+    border: 2px solid aquamarine;
+    text-align: center;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0px 0px ;
+    height: auto;
+    /*width: 100px;*/
+    overflow: auto;
+    width: auto;
+    background-color: rgb(136, 127, 255);
+    /*align-content: flex-start;*/
+    font-size: medium;
+    font-weight: bold;
+
+    
+}
+
+#info{
+    background-color: aquamarine;
+    padding-top: 20px;
+}
+
+.flex-image{
+    /*border: 2px solid #000;*/
+    padding: 0rem 0rem 0rem 0rem;
+    /*margin: 2rem;*/
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    overflow: auto;
+    align-items: center;
+}
+
+
+#cursos{
+    border: 2px solid rgb(47, 0, 255);
+    margin: 20px 0px 50px 0px;
+    padding: 20px 20px 50px 50px;
+    /*padding-top: 50px;*/
+    /*padding-bottom: 10px;
+    padding-left: 550px;
+    padding-right: 30px;*/
+
+}
+
+#link1{
+    border: 2px solid rgb(0, 255, 76);
+}
+    
+#link2{
+    border: 2px solid rgb(0, 255, 76);
+}
+
+#link3{
+    border: 2px solid rgb(0, 255, 76);
+}
+
+main a{
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    background-color: aquamarine;
+}
+
+main a:hover{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
+.flex-image{
+    align-self: flex-end;
+}
+
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2rem;
+    
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*margin-top: 0%;
+    margin-bottom: 5%;*/
+    width: 350px;
+    background-color: aquamarine;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+button{
+    background-color: aquamarine;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/*#nuestros_cursos{
+    color: forestgreen;
+}*/
